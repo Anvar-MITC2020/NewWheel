@@ -129,6 +129,11 @@ body {
 .credit span{
   color: orange;
 }
+p#address {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
 /* END FOOTER */
 
 
