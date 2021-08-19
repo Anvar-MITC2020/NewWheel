@@ -314,7 +314,7 @@ h3.menu-item-title {
     height: 558px;
   }
   /* End Home Page */
-  #address div > iframe {
+  #address iframe {
     width:fit-content;
     height:fit-content;
   }
