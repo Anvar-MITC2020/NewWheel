@@ -19,7 +19,7 @@ body {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Nunito', sans-serif;
   color: whitesmoke;
-  font-size: 1.5em;
+  font-size: 2.0em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -27,15 +27,6 @@ body {
   margin-bottom: 0;
   line-height: .75;
   justify-content: space-between;
-}
-.logo{
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color:#fff;
-  text-transform: uppercase;
-}
-.logo span{
-  color:var(--orange);
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -71,6 +62,9 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
+#phone a:hover{
+  background-color: inherit;
+}
 #phone div { /* We Deliver */
   color: #557c3e;
   text-align: right;
@@ -105,13 +99,16 @@ body {
   font-weight: bold;
   font-family: 'Oxygen', sans-serif;
 }
-#address p {
+#address iframe {
   color: #557c3e;
   font-size: .8em;
   line-height: 1.8;
+  border-style: none;
+  width: fit-content;
+  height: fit-content;
 }
 #testimonials {
-  font-style: italic;
+  font-style: bold;
 }
 #testimonials p:nth-child(2) {
   margin-top: 25px;
@@ -131,9 +128,47 @@ body {
 }
 p#address {
   color: #557c3e;
-  font-size: .8em;
+  font-size: .9em;
   line-height: 1.8;
 }
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  width: 50px;
+  height: 45px;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.55;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-telegram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #cb2027;
+  color: white;
+}
+
 /* END FOOTER */
 
 
