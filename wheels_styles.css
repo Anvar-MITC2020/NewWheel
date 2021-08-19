@@ -318,6 +318,10 @@ h3.menu-item-title {
     width:fit-content;
     height:fit-content;
   }
+  #address a {
+    width:fit-content;
+    height:fit-content;
+  }
 }
 
 /********** Small devices only **********/
