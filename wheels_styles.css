@@ -314,6 +314,10 @@ h3.menu-item-title {
     height: 558px;
   }
   /* End Home Page */
+  #testimonials a {
+    width:fit-content;
+    height:fit-content;
+  }
 }
 
 /********** Small devices only **********/
