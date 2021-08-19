@@ -322,6 +322,9 @@ h3.menu-item-title {
     width:fit-content;
     height:fit-content;
   }
+  #testimonials a:nth-child(4){
+    float:center;
+  }
 }
 
 /********** Small devices only **********/
